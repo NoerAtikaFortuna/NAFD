@@ -1,0 +1,374 @@
+/* Navbar */
+.nav-brand {
+    margin-left: 70px;
+    margin-top: -10px;
+
+}
+
+.nav-brand:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item a {
+    margin-left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.search{
+    margin-left: 17px;
+    background: #323232;
+    width: 50px;
+    height: 27px;
+    display: flex;
+    border-radius: 9px;
+}
+
+form input{
+    border-radius: 9px;
+    background: #323232;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    color: white;
+}
+
+form span{
+    align-self: center;
+    padding: 2px 3px;
+    color: #FFFFFF;
+    size: 20px;
+}
+
+.btn-dark {
+    margin-right: 70px;
+    width: 169px;
+    height: 40px;
+    background: linear-gradient(170.91deg, #323232 6.9%, rgba(24, 24, 24, 0) 202.58%);
+    filter: drop-shadow(0px 4px 9px rgba(255, 255, 255, 0.12));
+    border-radius: 40px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* Tutup Navbar */
+
+/* breadcrumb */
+
+.breadcrumb{
+    margin-top: 40px;
+    margin-left: 90px;
+    background-color: white;
+}
+.breadcrumb-item{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #878787;
+
+}
+
+/* tutup breadcrumb */
+
+/* detail */
+
+.detail{
+    margin-left: 100px;
+}
+
+.pr-brand{
+    font-family: 'Sansation';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #000000;
+}
+
+.pr-name{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    color: #000000;
+
+}
+.pr-dd{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+}
+
+.pr-dd span{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #A6A6A6;
+
+}
+
+.rat{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+
+.grs{
+    margin-left: -6px;
+    width: 669px;
+    height: 0px;
+    border: 1px solid #000000;
+
+}
+
+.tipe{
+    padding-bottom: 20px;
+}
+
+.tipe h5{
+    margin-bottom: 18px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+}
+
+.tipe-aktif{
+    padding: 10px 12px 10px 12px;
+    width: 84px;
+    height: 30px;
+    background: #292929;
+    border-radius: 4px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.type{
+    padding: 10px 12px 10px 12px;
+    box-sizing: border-box;
+    width: 84px;
+    height: 30px;
+    border: 1px solid #292929;
+    border-radius: 4px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #292929;
+}
+
+.size{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.dev span{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+}
+
+.dev{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+.qua{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+}
+
+.quant{
+    width: 64px;
+    height: 35px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+.btn-submit{
+    margin-top: 3px;
+    margin-left: 30px;
+    width: 538px;
+    height: 38px;
+    background: #393939;
+    border-radius: 3px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* tutup detail */
+
+
+
+.grs-vertic{
+    margin-top: 70px;
+    width: 1240.07px;
+    height: 0px;
+    border: 1px solid #000000;
+}
+
+.rate img{
+    margin-top: 70px;
+}
+
+/* other product */
+.oth{
+    margin-top: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.other-product{
+    margin-top: 50px;
+    padding-left: 150px;
+}
+
+
+.product1{
+    width: 182px;
+    height: 315px;
+}
+
+.product{
+    margin-left: 50px;
+    width: 182px;
+    height: 315px;
+}
+
+
+.pro-name{
+    margin-top: 13px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+}
+/* tutup other product */
+
+
+/* footer */
+
+.foot{
+    padding-bottom: 30px;
+    margin-top: 70px;
+    padding-left: 90px;
+    background-color: #1C1C1C;
+    padding-top: 40px;
+}
+
+
+.NAF{
+    margin-top: 25px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+
+.footer-item{
+    margin-bottom: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.footer-link{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+
+.footer-follow{
+    margin-bottom: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.copyright{
+    padding-left: 90px;
+    padding-right: 90px;
+    box-sizing: border-box;
+    width: 1440px;
+    height: 49px;
+    background: #292929;
+    border-top: 1px solid #FFFFFF;
+}
+
+.cpr{
+    padding-top: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+.cpr span{
+    margin-left: 780px;
+}
+
+
+/* tutup footer */

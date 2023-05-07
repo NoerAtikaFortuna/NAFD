@@ -1,0 +1,242 @@
+.navbar{
+    background: #292929;
+    height: 60px;
+}
+
+.data-diri{
+    padding-top: 60px;
+    padding-left: 90px;
+}
+
+.data-diri h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+}
+
+.data{
+    margin-bottom: 8px;
+    width: 288px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #000000;  
+    padding-left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+
+.cek{
+    box-sizing: border-box;
+    width: 13px;
+    height: 13px;
+    background: #D9D9D9;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+.form-check-label{
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.alamat{
+    padding-left: 90px;
+}
+
+.alamat h5{
+    margin-top: 28px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+
+}
+
+.custom-select{
+    box-sizing: border-box;
+    width: 161px;
+    height: 35px;
+    border: 1px solid #000000;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #999090;
+
+}
+
+.kecamat{
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 35px;
+    border: 1px solid #000000;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #999090;
+
+}
+
+.almat{
+    border-radius: 4px;
+    margin-bottom: 8px;
+    width: 340px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #000000;  
+    padding-left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+
+.kopo{
+    margin-left: 23px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    width: 110px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #000000;  
+    padding-left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+
+
+.pembayaran{
+    padding-left: 90px;
+}
+
+.pembayaran h5{
+    margin-top: 28px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+
+}
+
+.but{
+    margin-top: 20px;
+    padding-left: 90px;
+}
+
+.back{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+}
+
+.sub{
+    margin-left: 160px;
+}
+
+.item{
+    padding-left: 90px !important;
+    padding-top: 120px;
+    box-sizing: border-box;
+    width: 705px;
+    height: 749px;
+
+    background: #F8F7F7;
+    border-left: 1px solid #B5ABAB;
+
+}
+
+.input-group input{
+    padding-left: 10px;
+    width: 357px;
+    height: 35px;
+    background: #F8F7F7;
+    border: 1px solid #000000;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #AAAAAA;
+}
+
+.input-group-append button{
+    margin-top: 4px;
+    width: 142px;
+    height: 35px;
+    background: #292929;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.grs-vr{
+    margin-top: 28px;
+    margin-left: -3px;
+    width: 498.81px;
+    height: 0px;
+    border: 1px solid #000000;
+}
+
+.subtotal{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.biaya{
+    margin-left: 250px;
+    text-align: right;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.total{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+.tt-biaya{
+    margin-left: 366px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}

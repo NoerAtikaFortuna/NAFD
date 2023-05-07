@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="frontend/libraries/bootstraps/css/bootstrap.css">
+    <!-- My css -->
+    <link rel="stylesheet" href="frontend/style/booking.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/6b862ed39e.js" crossorigin="anonymous"></script>
+
+
+    <title>NAFD</title>
+  </head>
+  <body>
+    
+    <div class="form-row">
+        <div class="col-6 book">
+            <nav class="navbar navbar-expand-lg">
+                <img src="frontend/img/nav-brand.png" class="mx-auto">
+            </nav>
+            <div class="data-diri">
+                <h5>Data Diri</h5>
+                <input type="text" class="form-text data" placeholder="Email">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input cek" value="checkedValue" checked>
+                    Beritahu tentang pemberitahuan terbaru ke email saya
+                  </label>
+                </div>
+                <input type="text" class="form-text data" placeholder="No. HP">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input cek" value="checkedValue" checked>
+                    SMS saya dengan berita dan penawaran
+                  </label>
+                </div>
+            </div>
+            <div class="alamat">
+                <h5>Alamat</h5>
+                <select class="custom-select" id="inlineFormCustomSelect">
+                    <option selected>Provinsi</option>
+                    <option value="1">Riau</option>
+                    <option value="2">Sumbar</option>
+                    <option value="3">Sumut</option>
+                </select>
+                <select class="custom-select ml-3" id="inlineFormCustomSelect">
+                    <option selected>Kota</option>
+                    <option value="1">Pekanbaru</option>
+                    <option value="2">Siak hulu</option>
+                    <option value="3">Marpoyan</option>
+                </select>
+                <select class="custom-select kecamat ml-3" id="inlineFormCustomSelect">
+                    <option selected>Kecamatan</option>
+                    <option value="1">Marpoyan</option>
+                    <option value="2">Pasir putih</option>
+                    <option value="3">Air dingin</option>
+                </select>
+                <div class="form-inline mt-3">
+                    <input type="text" class="form-text almat" placeholder="Alamat lengkap (Jalan, gang, dll)">
+                    <input type="text" class="form-text kopo" placeholder="Kode pos">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input cek" value="checkedValue" checked>
+                        Simpan informasi ini untuk lain kali
+                    </label>
+                </div>
+            </div>
+            <div class="pembayaran">
+                <h5>Metode Pembayaran</h5>
+                <select class="custom-select kecamat" id="inlineFormCustomSelect">
+                    <option selected>Pilih..</option>
+                    <option value="1">BRI</option>
+                    <option value="2">BNI</option>
+                    <option value="3">BCA</option>
+                </select>
+            </div>
+            <div class="form-inline but">
+                <a href="detail.html" class="back"><i class="fas fa-chevron-left mr-2"></i>Kembali ke halaman sebelumnya</a>
+                <a href="success.html" role="button">
+                    <img src="frontend/img/btn-sub.png" class="sub">
+                </a>
+            </div>
+        </div>
+        <div class="col-6 item">
+            <img src="frontend/img/Produk.png">
+            <div class="input-group mt-4">
+                <input type="text" class="form-text" placeholder="Kartu hadiah atau voucher diskon" aria-label="voucher" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Pakai Voucher</button>
+                </div>
+            </div>
+            <hr class="grs-vr">
+            <div class="form-inline">
+                <div class="kiri">
+                    <p class="subtotal">Subtotal</p>
+                    <p class="subtotal">Biaya pengiriman</p>
+                    <p class="subtotal">Biaya penanganan</p>
+                </div>
+                <div class="kanan">
+                    <p class="biaya">Rp 386.845</p>
+                    <p class="biaya">Rp 45.000</p>
+                    <p class="biaya">Rp 5.000</p>
+                </div>
+            </div>
+            <hr class="grs-vr">
+            <p class="total">Total<span class="tt-biaya">Rp 436.845</span></p>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="frontend/libraries/bootstraps/js/bootstrap.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
